@@ -3,6 +3,7 @@ package ru.granat.granat_quiz.mapper;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 import ru.granat.granat_quiz.model.dto.AnswerDto;
+import ru.granat.granat_quiz.model.dto.PersonDto;
 import ru.granat.granat_quiz.model.dto.QuestionDto;
 import ru.granat.granat_quiz.model.entity.Answer;
 import ru.granat.granat_quiz.model.entity.Person;

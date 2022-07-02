@@ -2,6 +2,7 @@ create table person (
                       id serial primary key,
                       login varchar(256) not null unique,
                       password varchar(256) not null,
+                      role varchar(100) not null,
                       created timestamp default Now()
 );
 
